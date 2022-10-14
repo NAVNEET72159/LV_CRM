@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="id_activityScreenTitles">
+        <item></item>
+        <item>DashBoard</item>
+        <item>Manage Account</item>
+        <item>Create Account</item>
+        <item>Upload</item>
+        <item>Logout</item>
+    </string-array>
+
+    <array name="id_activityScreenIcons">
+        <item></item>
+        <item>@drawable/ic_baseline_home_24</item>
+        <item>@drawable/ic_baseline_assignment_ind_24</item>
+        <item>@drawable/ic_baseline_person_add_24</item>
+        <item>@drawable/ic_arrow_big_up_lines</item>
+        <item>@drawable/ic_logout</item>
+    </array>
+
+</resources>

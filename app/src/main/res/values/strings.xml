@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">LV CRM</string>
+    <string name="ludo_ventures">LUDO VENTURES</string>
+    <string name="log_in">Log In</string>
+    <string name="login">LOGIN</string>
+    <string name="todo">TODO</string>
+    <string name="username_or_e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="button">Log In</string>
+    <string name="create">Create</string>
+    <string name="dashboard_fragment">DashBoard Fragment</string>
+    <string name="lead_fragment">Manage Account</string>
+    <string name="team_fragment">Create Account</string>
+    <string name="upload_fragment">Upload Fragment</string>
+    <string name="create_sales_head_account">Create Sales Head Account</string>
+    <string name="create_marketing_head_account">Create Marketing Head Account</string>
+    <string name="create_channel_partner_account">Create Channel Partner Account</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Mob. Number</string>
+    <string name="assigned_business_product">Assigned Business Product</string>
+    <string name="username">UserName</string>
+    <string name="salesHeadAccountSwitch">Do You want to create a Sales Head Account?</string>
+    <string name="channelPartnerAccountSwitch">Do You want to create a Channel Partner Account?</string>
+    <string name="marketingHeadAccountSwitch">Do You want to create a Marketing Head Account?</string>
+    <string name="yearOfExperience">Year Of Experience</string>
+    <string name="industrialExperience">Industrial Experience</string>
+    <string name="languageKnown1st">Language known 1st</string>
+    <string name="languageKnown2nd">Language known 2nd</string>
+    <string name="languageKnown3rd">Language known 3rd</string>
+    <string name="languageKnown4th">Language known 4th</string>
+    <string name="qualification">Qualification</string>
+    <string name="address">Address</string>
+    <string name="uploadResume">Upload Resume</string>
+</resources>

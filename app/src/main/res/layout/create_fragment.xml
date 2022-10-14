@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:backgroundTint="#A9575555"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tv_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="monospace"
+            android:text="@string/create_marketing_head_account"
+            android:textColor="@color/primary_Color"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+        <EditText
+            android:id="@+id/editTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="24dp"
+            android:hint="@string/name"
+            android:autofillHints=""
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
+
+        <EditText
+            android:id="@+id/editTextTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:padding="24dp"
+            android:hint="@string/username_or_e_mail"
+            android:autofillHints=""
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
+
+        <EditText
+            android:id="@+id/editTextTextPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:padding="24dp"
+            android:hint="@string/phone_number"
+            android:autofillHints=""
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
+
+        <EditText
+            android:id="@+id/editTextTextABP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="24dp"
+            android:hint="@string/assigned_business_product"
+            android:autofillHints=""
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
+
+        <EditText
+            android:id="@+id/editTextTextUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textCapWords"
+            android:padding="24dp"
+            android:hint="@string/username"
+            android:autofillHints=""
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:padding="24dp"
+            android:hint="@string/password"
+            android:autofillHints=""
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create"
+            android:padding="24dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_Color"
+            style="@style/Widget.Material3.Button.OutlinedButton"/>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/SalesHeadAccountSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/salesHeadAccountSwitch"
+            android:layout_marginTop="10dp"
+            android:padding="24dp"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_Color"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+
+        <Button
+            android:id="@+id/ChannelPartnerAccountSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/channelPartnerAccountSwitch"
+            android:layout_marginTop="10dp"
+            android:padding="24dp"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_Color"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

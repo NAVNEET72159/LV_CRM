@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/LVCRM/app/src/main/res/drawable/ic_arrow_big_up_lines.xml" value="0.1405" />
+        <entry key="..\:/LVCRM/app/src/main/res/drawable/ic_arrow_wave_right_up.xml" value="0.1405" />
+        <entry key="..\:/LVCRM/app/src/main/res/drawable/ic_baseline_assignment_ind_24.xml" value="0.364" />
+        <entry key="..\:/LVCRM/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1405" />
+        <entry key="..\:/LVCRM/app/src/main/res/drawable/ic_baseline_person_add_24.xml" value="0.364" />
+        <entry key="..\:/LVCRM/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1405" />
+        <entry key="..\:/LVCRM/app/src/main/res/drawable/ic_baseline_settings_power_24.xml" value="0.1405" />
+        <entry key="..\:/LVCRM/app/src/main/res/drawable/ic_boss_svgrepo_com.xml" value="0.1405" />
+        <entry key="..\:/LVCRM/app/src/main/res/drawable/ic_businessman_boss_svgrepo_com.xml" value="0.1405" />
+        <entry key="..\:/LVCRM/app/src/main/res/drawable/ic_home.xml" value="0.2015" />
+        <entry key="..\:/LVCRM/app/src/main/res/drawable/ic_logout.xml" value="0.1405" />
+        <entry key="..\:/LVCRM/app/src/main/res/drawable/ic_ludo_ventures_logos_black.xml" value="0.1505" />
+        <entry key="..\:/LVCRM/app/src/main/res/drawable/ic_settings_automation.xml" value="0.1405" />
+        <entry key="..\:/LVCRM/app/src/main/res/drawable/ic_team_svgrepo_com.xml" value="0.1405" />
+        <entry key="..\:/LVCRM/app/src/main/res/drawable/ic_ur.xml" value="0.1405" />
+        <entry key="..\:/LVCRM/app/src/main/res/drawable/ic_user.xml" value="0.2015" />
+        <entry key="..\:/LVCRM/app/src/main/res/drawable/ic_user_svgrepo_com.xml" value="0.1405" />
+        <entry key="..\:/LVCRM/app/src/main/res/drawable/ic_users.xml" value="0.1405" />
+        <entry key="..\:/LVCRM/app/src/main/res/font/almendra_display.xml" value="0.25052083333333336" />
+        <entry key="..\:/LVCRM/app/src/main/res/font/arizonia.xml" value="0.25052083333333336" />
+        <entry key="..\:/LVCRM/app/src/main/res/font/asset.xml" value="0.25052083333333336" />
+        <entry key="..\:/LVCRM/app/src/main/res/font/bangers.xml" value="0.25052083333333336" />
+        <entry key="..\:/LVCRM/app/src/main/res/layout/activity_dash_board.xml" value="0.33" />
+        <entry key="..\:/LVCRM/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/LVCRM/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/LVCRM/app/src/main/res/layout/channel_partner_fragment.xml" value="0.3413078149920255" />
+        <entry key="..\:/LVCRM/app/src/main/res/layout/create_fragment.xml" value="0.3651041666666667" />
+        <entry key="..\:/LVCRM/app/src/main/res/layout/dashboard_fragment.xml" value="0.33055555555555555" />
+        <entry key="..\:/LVCRM/app/src/main/res/layout/drawer_menu.xml" value="0.3692708333333333" />
+        <entry key="..\:/LVCRM/app/src/main/res/layout/item_option.xml" value="0.3692708333333333" />
+        <entry key="..\:/LVCRM/app/src/main/res/layout/lead_fragment.xml" value="0.33" />
+        <entry key="..\:/LVCRM/app/src/main/res/layout/manage_fragment.xml" value="0.33" />
+        <entry key="..\:/LVCRM/app/src/main/res/layout/profile_fragment.xml" value="0.33" />
+        <entry key="..\:/LVCRM/app/src/main/res/layout/sales_head_fragment.xml" value="0.3651041666666667" />
+        <entry key="..\:/LVCRM/app/src/main/res/layout/setting_fragment.xml" value="0.5" />
+        <entry key="..\:/LVCRM/app/src/main/res/layout/team_fragment.xml" value="0.5" />
+        <entry key="..\:/LVCRM/app/src/main/res/layout/upload_fragment.xml" value="0.33" />
+        <entry key="..\:/LVCRM/app/src/main/res/mipmap-anydpi-v26/logo.xml" value="0.227" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

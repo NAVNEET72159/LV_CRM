@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:backgroundTint="#A9575555"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/tv_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="monospace"
+                android:text="@string/create_channel_partner_account"
+                android:textColor="@color/primary_Color"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editTextPersonName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:padding="24dp"
+                    android:hint="@string/name"
+                    android:autofillHints=""
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
+
+                <EditText
+                    android:id="@+id/editTextTextEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:padding="24dp"
+                    android:hint="@string/username_or_e_mail"
+                    android:autofillHints=""
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
+
+                <EditText
+                    android:id="@+id/editTextTextPhoneNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="phone"
+                    android:padding="24dp"
+                    android:hint="@string/phone_number"
+                    android:autofillHints=""
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
+
+                <EditText
+                    android:id="@+id/editTextTextYearOfExperience"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:padding="24dp"
+                    android:hint="@string/yearOfExperience"
+                    android:autofillHints=""
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
+
+                <EditText
+                    android:id="@+id/editTextTextIndustrialExperience"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:padding="24dp"
+                    android:hint="@string/industrialExperience"
+                    android:autofillHints=""
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
+
+                <EditText
+                    android:id="@+id/editTextTextLanguageKnownFirst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:padding="24dp"
+                    android:hint="@string/languageKnown1st"
+                    android:autofillHints=""
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
+
+                <EditText
+                    android:id="@+id/editTextTextLanguageKnownSecond"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:padding="24dp"
+                    android:hint="@string/languageKnown2nd"
+                    android:autofillHints=""
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
+
+                <EditText
+                    android:id="@+id/editTextTextLanguageKnownThird"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:padding="24dp"
+                    android:hint="@string/languageKnown3rd"
+                    android:autofillHints=""
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
+
+                <EditText
+                    android:id="@+id/editTextTextLanguageKnownFourth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:padding="24dp"
+                    android:hint="@string/languageKnown4th"
+                    android:autofillHints=""
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
+
+                <EditText
+                    android:id="@+id/editTextTextABP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:padding="24dp"
+                    android:hint="@string/yearOfExperience"
+                    android:autofillHints=""
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
+
+                <EditText
+                    android:id="@+id/editTextTextQualification"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType=""
+                    android:padding="24dp"
+                    android:hint="@string/qualification"
+                    android:autofillHints=""
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
+
+                <EditText
+                    android:id="@+id/editTextTextAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:padding="24dp"
+                    android:hint="@string/address"
+                    android:autofillHints=""
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
+
+                <Button
+                    android:id="@+id/editTextTextUploadResume"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/uploadResume"
+                    android:layout_marginTop="10dp"
+                    android:padding="24dp"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary_Color"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+
+                <EditText
+                    android:id="@+id/editTextTextUserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textCapWords"
+                    android:padding="24dp"
+                    android:hint="@string/username"
+                    android:autofillHints=""
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
+
+                <EditText
+                    android:id="@+id/editTextTextPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:padding="24dp"
+                    android:hint="@string/password"
+                    android:autofillHints=""
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/create"
+                        android:padding="24dp"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/primary_Color"
+                        style="@style/Widget.Material3.Button.OutlinedButton"/>
+
+                </LinearLayout>
+                <Button
+                    android:id="@+id/MarketingHeadAccountSwitch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/marketingHeadAccountSwitch"
+                    android:layout_marginTop="10dp"
+                    android:padding="24dp"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary_Color"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+
+                <Button
+                    android:id="@+id/SalesHeadAccountSwitch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/salesHeadAccountSwitch"
+                    android:layout_marginTop="10dp"
+                    android:padding="24dp"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary_Color"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+            </LinearLayout>
+        </ScrollView>
+
+</LinearLayout>
